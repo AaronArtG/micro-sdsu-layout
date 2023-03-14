@@ -10,12 +10,15 @@ body {
 
 nav ul li {
     display: inline-block;
+    color: #808080;
+    font-family: 'Abel', sans-serif;
+    font-size: 12px;
 }
 
 
 nav a {
     text-decoration: none;
-    padding-left: 10px;
+    padding-left: 29px;
 
 }
 
@@ -46,16 +49,32 @@ nav a {
 .product-categories div {
     display: inline-block;
     height: 100px;
+    padding: 20px;
+ 
+    
+}
+
+.categories-text{
+    text-decoration: underline;
+    color:blue;
+
 }
 
 
 .service-cards div {
     display: inline-block;
     width: 24%;
+
 }
 
 
 .service-cards div img{
     width: 100%;
     height: 200px;
+   
 }
+
+
+
+
+
